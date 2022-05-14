@@ -1,4 +1,4 @@
-pipeline { 
+pipeline {
 
 agent any 
 
@@ -20,10 +20,14 @@ stages {
                       echo "test my final webapp"
          }
     }
-
-
-
+stage('Deploy to Prod') {
+                steps  {
+                      echo "test my final webapp to webapp"
+         }
+    }
 }
+
+
 
 
 
