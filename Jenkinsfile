@@ -11,7 +11,7 @@ stages {
                }
     }
         stage('Deploy') {
-                  steps  {
+                 steps  {
                           echo "deploying my code"
          }
     }
